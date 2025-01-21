@@ -27,12 +27,12 @@ const Schedule = () => {
           </div>
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="/photo-1721322800607-8c38375eef04"
+              src="/espacio-terapia.jpg"
               alt="Espacio de terapia"
               className="rounded-lg shadow-md w-full object-cover aspect-square"
             />
             <img
-              src="/photo-1581090464777-f3220bbe1b8b"
+              src="/inspiracion-crecimiento.jpg"
               alt="Inspiración y crecimiento"
               className="rounded-lg shadow-md w-full object-cover aspect-square mt-8"
             />
