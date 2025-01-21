@@ -1,69 +1,66 @@
-# Welcome to your Lovable project
+# Portafolio de Psicología
 
-## Project info
+Este proyecto es un portafolio de psicología diseñado con tecnologías modernas para una experiencia de usuario eficiente y agradable. Proporciona una plataforma profesional y accesible para destacar información sobre psicología y servicios relacionados.
 
-**URL**: https://lovable.dev/projects/5a778654-9ad5-43dd-974b-fa167b2034d4
+## 🚀 Tecnologías utilizadas
 
-## How can I edit this code?
+- **[Vite](https://vitejs.dev/)**: Herramienta rápida y ligera para el desarrollo de aplicaciones modernas.
+- **[TypeScript](https://www.typescriptlang.org/)**: Extensión de JavaScript que agrega tipado estático.
+- **[React](https://reactjs.org/)**: Biblioteca para la construcción de interfaces de usuario.
+- **[shadcn-ui](https://shadcn.dev/)**: Biblioteca de componentes modernos, accesibles y personalizables para React.
+- **[Tailwind CSS](https://tailwindcss.com/)**: Framework de diseño utilitario para construir interfaces de usuario personalizadas de manera rápida.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 📦 Instalación
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/5a778654-9ad5-43dd-974b-fa167b2034d4) and start prompting.
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/usuario/portafolio-psicologia.git
+   cd portafolio-psicologia
+   ```
 
-Changes made via Lovable will be committed automatically to this repo.
+2. Instala las dependencias con **npm** o **yarn**:
+   ```bash
+   npm install
+   # o
+   yarn install
+   ```
 
-**Use your preferred IDE**
+3. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
+   # o
+   yarn dev
+   ```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+4. Abre la aplicación en tu navegador en [http://localhost:8080](http://localhost:8080).
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 📂 Estructura del proyecto
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```plaintext
+├── src/
+│   ├── components/      # Componentes reutilizables
+│   ├── pages/           # Vistas principales del proyecto
+│   ├── hooks/          
+│   ├── lib/             # Utilidades y funciones auxiliares
+│   └── main.tsx         # Archivo principal de React
+├── public/              # Archivos estáticos
+├── tailwind.config.js   # Configuración de Tailwind CSS
+├── tsconfig.json        # Configuración de TypeScript
+└── vite.config.ts       # Configuración de Vite
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🛠️ Scripts disponibles
 
-**Use GitHub Codespaces**
+- `npm run dev` o `yarn dev`: Inicia el servidor de desarrollo.
+- `npm run build` o `yarn build`: Compila el proyecto para producción.
+- `npm run preview` o `yarn preview`: Visualiza la compilación de producción.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
 
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/5a778654-9ad5-43dd-974b-fa167b2034d4) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)

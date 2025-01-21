@@ -27,7 +27,7 @@ const Hero = () => {
           </div>
           <div className="relative">
             <img
-              src="/photo-1581091226825-a6a2a5aee158"
+              src="/Profesional-psicologia.png"
               alt="Profesional de psicología"
               className="rounded-lg shadow-xl w-full object-cover aspect-[4/3]"
             />
