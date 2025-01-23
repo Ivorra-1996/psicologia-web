@@ -37,7 +37,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <Card className="bg-neutral-50 border-none">
+          <Card className="bg-white border-none">
             <CardContent className="p-6">
               <div className="space-y-4">
                 <h3 className="text-xl font-medium text-neutral-900">Formación Académica</h3>
